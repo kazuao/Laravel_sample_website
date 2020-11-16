@@ -13,4 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// トップページ
 Route::get('/', 'TopPageController@show');
+
+// 会社概要ページ
+Route::get('/about', 'AboutPageController@show');
